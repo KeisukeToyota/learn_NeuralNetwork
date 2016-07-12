@@ -1,3 +1,6 @@
+"""
+確率的2値モデル
+"""
 import random
 import math
 import sys

@@ -1,3 +1,6 @@
+"""
+勾配法を用いた1変数関数の極大点探索
+"""
 from sympy import *
 
 x = Symbol('x')
