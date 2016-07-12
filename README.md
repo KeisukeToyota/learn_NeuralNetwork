@@ -1,1 +1,2 @@
 # learn_NeuralNetwork
+ニューラルネットワーク学習用のリポジトリ
