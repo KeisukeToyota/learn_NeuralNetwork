@@ -38,10 +38,10 @@ def measured_value(w, input):
 
 
 def main():
-    print ('実測値１：%d/%d' % (measured_value(weight, input1), loop))
-    print ('理論値１：%d/%d' % (theoretical_value(weight, input1), loop))
-    print ('実測値２：%d/%d' % (measured_value(weight, input2), loop))
-    print ('理論値２：%d/%d' % (theoretical_value(weight, input2), loop))
+    print('実測値１：%d/%d' % (measured_value(weight, input1), loop))
+    print('理論値１：%d/%d' % (theoretical_value(weight, input1), loop))
+    print('実測値２：%d/%d' % (measured_value(weight, input2), loop))
+    print('理論値２：%d/%d' % (theoretical_value(weight, input2), loop))
 
 
 if __name__ == "__main__":
