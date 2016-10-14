@@ -23,3 +23,16 @@ z = 2*x
 y = x**2 - z + 1
 y.backward(retain_grad=True)
 print(z.grad)
+
+class MyChain(Chain):
+    def __init__(self):
+        super(MyChain, self).__init__(
+            l1 = L.Linear(4, 3),
+            l2 = L.Linear(3, 2),
+        )
+
+    def __call__(self, x):
+        h = self.l1(x)
+        return self.l2(h)
+
+print(MyChain(x))
